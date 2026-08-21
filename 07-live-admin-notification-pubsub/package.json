@@ -1,0 +1,19 @@
+{
+  "name": "07-live-admin-notification-pubsub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "node src/api.js",
+    "subscriber": "node src/subscriber.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^6.0.0"
+  }
+}
